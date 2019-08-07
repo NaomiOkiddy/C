@@ -37,6 +37,7 @@ Here is the recipe for “Choucroute” Sauerkraut Alsatian style:
     * Serve with a reasonable quantity of beer.
 
 ![Diagram](http://frenchcountryfood.com/wp-content/uploads/2016/08/choucroutee.jpg)
+
 _(Figure I.1: A typical “Choucroute”)_
 
 Tip: This project is easier if you do it after you have already eaten a
