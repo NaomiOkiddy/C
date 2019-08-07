@@ -1,6 +1,4 @@
-### ft_ls
-
-As simple as listing the files in a directory.
+# ft_ls - As simple as listing the files in a directory.
 
 Project Creator: Pedago pedago@42.fr
 Summary: In short: This project will make you recode the command “ls”
@@ -18,25 +16,25 @@ VII Submission and peer evaluation
 ### Foreword
 Here is the recipe for “Choucroute” Sauerkraut Alsatian style:
 * Ingredient (4 people)
-    ◦ 1kg of sauerkraut (pickled shredded cabbage)
-    ◦ 350g of smoked bacon
-    ◦ 350g of pig back
-    ◦ 1 tsp of pig fat
-    ◦ 2 garlic cloves
-    ◦ 1 bay leaf
-    ◦ 10 juniper bays
-    ◦ 1 onion picked with 2 cloves
-    ◦ 25cl of Alsatian white wine “Riesling”
-    ◦ 350g of potatoes
-    ◦ 4 Frankfurters
+    * 1kg of sauerkraut (pickled shredded cabbage)
+    * 350g of smoked bacon
+    * 350g of pig back
+    * 1 tsp of pig fat
+    * 2 garlic cloves
+    * 1 bay leaf
+    * 10 juniper bays
+    * 1 onion picked with 2 cloves
+    * 25cl of Alsatian white wine “Riesling”
+    * 350g of potatoes
+    * 4 Frankfurters
 * Recipe
-    ◦ Rinse the sauerkraut under cold water, press it to remove the water and pour half in a pot.
-    ◦ Layer the smoked bacon and the pig back meat, cover them with the rest of the sauerkraut.
-    ◦ Add the pig fat, garlic (*unpeeled!), the juniper, bay leaves and the onion.
-    ◦ Pour the white wine on top and let it simmer covered for 1h.
-    ◦ Add the potatoes and cook an additional 50 minutes.
-    ◦ Add the sausages and let it cook again for 10 minutes.
-    ◦ Serve with a reasonable quantity of beer.
+    * Rinse the sauerkraut under cold water, press it to remove the water and pour half in a pot.
+    * Layer the smoked bacon and the pig back meat, cover them with the rest of the sauerkraut.
+    * Add the pig fat, garlic (*unpeeled!), the juniper, bay leaves and the onion.
+    * Pour the white wine on top and let it simmer covered for 1h.
+    * Add the potatoes and cook an additional 50 minutes.
+    * Add the sausages and let it cook again for 10 minutes.
+    * Serve with a reasonable quantity of beer.
 
 [Diagram](http://frenchcountryfood.com/wp-content/uploads/2016/08/choucroutee.jpg)
 _(Figure I.1: A typical “Choucroute”)_
@@ -79,24 +77,24 @@ username followed by a ’\n’
 `xlogin$`
 
 * Within your mandatory part you are allowed to use the following functions:
-    ◦ write
-    ◦ opendir
-    ◦ readdir
-    ◦ closedir
-    ◦ stat
-    ◦ lstat
-    ◦ getpwuid
-    ◦ getgrgid
-    ◦ listxattr
-    ◦ getxattr
-    ◦ time
-    ◦ ctime
-    ◦ readlink
-    ◦ malloc
-    ◦ free
-    ◦ perror
-    ◦ strerror
-    ◦ exit
+    * write
+    * opendir
+    * readdir
+    * closedir
+    * stat
+    * lstat
+    * getpwuid
+    * getgrgid
+    * listxattr
+    * getxattr
+    * time
+    * ctime
+    * readlink
+    * malloc
+    * free
+    * perror
+    * strerror
+    * exit
 * You are allowed to use other functions to carry out the bonus part as long as their
 use is justified during your defence. For example, to use tcgetattr is justified in
 certain case, to use printf because you are lazy isn’t. Be smart!
@@ -106,11 +104,11 @@ certain case, to use printf because you are lazy isn’t. Be smart!
 ### Mandatory part
 * You must recode the system’s command `ls`.
 * Its behavior must be identical to the original ls command with the following variations:
-    ◦ Amongst the numerous options available, we are asking you to create the following: -l, -R, -a, -r and -t.
-    ◦ We strongly recommend that you account for the implications of the option -R from the very beginning of your code...
-    ◦ You do not have to deal with the multiple column format for the exit when the option -l isn’t in the arguments.
-    ◦ You are not required to deal with ACL and extended attributes.
-    ◦ The overall display, depending on each option, must stay as identical as possible to the system command. We will be cordial when grading either the padding or the pagination, but no information can be missing.
+    * Amongst the numerous options available, we are asking you to create the following: -l, -R, -a, -r and -t.
+    * We strongly recommend that you account for the implications of the option -R from the very beginning of your code...
+    * You do not have to deal with the multiple column format for the exit when the option -l isn’t in the arguments.
+    * You are not required to deal with ACL and extended attributes.
+    * The overall display, depending on each option, must stay as identical as possible to the system command. We will be cordial when grading either the padding or the pagination, but no information can be missing.
  
 Tip: man ls
 
