@@ -4,12 +4,18 @@ Project Creator: Pedago pedago@42.fr
 Summary: In short: This project will make you recode the command “ls”
 
 ## Contents
-I Foreword 
+I Foreword
+
 II Introduction 
+
 III Objectives 
+
 IV General Instructions 
+
 V Mandatory part 
+
 VI Bonus part 
+
 VII Submission and peer evaluation 
 
 ## Chapter I
